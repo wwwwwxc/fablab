@@ -18,7 +18,7 @@
 
     <!-- Custom styles for this template -->
     <link href="bootstrap/media/theme.css" rel="stylesheet">
-
+	  
 
   </head>
 
@@ -48,53 +48,29 @@
 
     <div class="container theme-showcase" role="main">
 
-      
-
-
-      <div class="page-header">
-        <h1>Assignments</h1>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>About the final project with Ben</h1>
       </div>
-
-      
-		
-      <div class="row">
-
-			  
-			  
-			   <div class="list-group">
-            <a href="class1.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Class 1</h4>
-              <p class="list-group-item-text">Introduction and Building a website</p>
-            </a>
-            <a href="class2.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Class 2</h4>
-              <p class="list-group-item-text">Laser Cutting and 2D Design</p>
-            </a>
-            <a href="class3.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Class 3</h4>
-              <p class="list-group-item-text">3D printing and 3D design</p>
-            </a>
-                <a href="class4.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Class 4</h4>
-              <p class="list-group-item-text">3D Scan</p>
-            </a>
-                <a href="class6-7.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Class 6-7</h4>
-              <p class="list-group-item-text">PCB and electric circuits</p>
-            </a>
-                   
-             <a href="project.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Poject</h4>
-              <p class="list-group-item-text">About the final project with Ben</p>
-            </a>
-          </div>
-			  
-			  
-			  
-		  </div>
-		  
-		  
-		
+        <h2>How to connect Led Matrix LD-1088BS :https://wenku.baidu.com/view/3d04a68fbceb19e8b8f6bad9.html </h2>
+        <h3>High voltage is at the Column leg and low voltage is at the Row leg so that a certain led will be on.</h3>
+        <img border="0" src="image/c1.JPG" width="" height="500">
+        <h2>Due to the limited number of output ports from the arduino(12 can be used), I just use the inner 6*6 leds to output the directions.</h2>
+        <img border="0" src="image/c2.JPG" width="" height="500">
+        <h2>First give every output port a name and bind it to the leg of led matrix.</h2>
+        <img border="0" src="image/code_input.jpg" width="" height="500">
+        <h2>Because of the characteristic of the led matrix, it's hard to light a picture through the leds and it's very easy to light a whole rectangle on the matrix .Then I search on the internet to get some ideas.After that, I succeed.</h2>
+        <h2>How to light a picture through the led matrix:http://blog.csdn.net/ling3ye/article/details/52986071</h2>
+         <img border="0" src="image/left.jpg" width="" height="200">
+        <img border="0" src="image/nowhere.jpg" width="" height="200">
+        <img border="0" src="image/face.jpg" width="" height="200">
+        <h2>This part is the code of pictures , 1 represents that the led id off and 0 represents that the led is on.</h2>
+        <img border="0" src="image/code2.jpg" width="" height="1000">
+        <h2>This part is the init of the putput port and the test code of the led pictures. </h2>
+         <img border="0" src="image/code3.jpg" width="" height="1000">
+        <h2>This part is the display funciton which is used to display a certain picture and the clear function to clear the display. </h2>
+         <img border="0" src="image/code4.jpg" width="" height="1000">
+        
     </div> <!-- /container -->
 
 
